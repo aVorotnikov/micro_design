@@ -1,2 +1,2 @@
-# micro_design
-Micro design labs
+# Лабораторные по проектированию web-приложений
++ [Варианты использования](use_case.png)
