@@ -1,0 +1,25 @@
+post:
+  description: Отправить сообщение для восстановления пароля
+  tags:
+    - PasswordRecovering
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            email:
+              description: Электронная почта пользователя
+              type: string
+              format: email
+          example:
+            email: PetrovPP@example.com
+  responses:
+    '200':
+      description: OK
+    '400':
+      description: Ошибка
+      content:
+        application/json:
+          schema:
+            $ref: "common/error.yml"

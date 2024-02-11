@@ -1,0 +1,25 @@
+post:
+  description: Проверить наличие токена восстановления
+  tags:
+    - PasswordRecovering
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            uuid:
+              description: Токен восстановления пароля
+              type: string
+              format: uuid
+          example:
+            uuid: 00000000-0000-0000-0000-000000000000
+  responses:
+    '200':
+      description: OK
+    '400':
+      description: Ошибка
+      content:
+        application/json:
+          schema:
+            $ref: "common/error.yml"

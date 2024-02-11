@@ -1,0 +1,30 @@
+post:
+  description: Войти в систему
+  tags:
+    - Authentication
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            email:
+              description: Адрес электронной почты пользователя
+              type: string
+              format: email
+            password:
+              description: Пароль пользователя
+              type: string
+              format: password
+          example:
+            email: PetrovPP@example.com
+            password: Password1_
+  responses:
+    '200':
+      description: OK
+    '400':
+      description: Ошибка
+      content:
+        application/json:
+          schema:
+            $ref: "common/error.yml"

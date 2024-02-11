@@ -7,3 +7,4 @@
     - [Восстановление пароля](elements/password_recovering.png)
     - [Ввод нового пароля](elements/new_password.png)
     - [Проверка токена](elements/check_token.png)
++ [Описание API сервера](openapi/)
