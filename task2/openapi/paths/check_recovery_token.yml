@@ -1,7 +1,7 @@
 post:
   description: Проверить наличие токена восстановления
   tags:
-    - PasswordRecovering
+    - Восстановление пароля
   requestBody:
     content:
       application/json:

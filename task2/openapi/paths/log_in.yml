@@ -1,7 +1,7 @@
 post:
   description: Войти в систему
   tags:
-    - Authentication
+    - Аутентификация
   requestBody:
     content:
       application/json:

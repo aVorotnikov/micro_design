@@ -4,10 +4,10 @@ info:
   version: '1.0'
 
 tags:
-  - name: Authentication
-    description: Аутентификация
-  - name: PasswordRecovering
-    description: Восстановление пароля
+  - name: Аутентификация
+    description: Методы аутентификации пользователей
+  - name: Восстановление пароля
+    description: Методы сценария восстановления пароля пользователя
 
 paths:
   /log-in:

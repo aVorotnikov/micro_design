@@ -1,7 +1,7 @@
 get:
   description: Выйти из системы
   tags:
-    - Authentication
+    - Аутентификация
   security:
     - bearerAuth: []
   responses:

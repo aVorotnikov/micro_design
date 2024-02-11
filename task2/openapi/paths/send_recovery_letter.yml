@@ -1,7 +1,7 @@
 post:
   description: Отправить сообщение для восстановления пароля
   tags:
-    - PasswordRecovering
+    - Восстановление пароля
   requestBody:
     content:
       application/json:
