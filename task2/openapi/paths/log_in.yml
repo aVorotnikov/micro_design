@@ -22,9 +22,22 @@ post:
   responses:
     '200':
       description: OK
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              token:
+                description: Токен для последующей авторизации
+                type: string
+                format: byte
+            example:
+              token: eyJ0eXAwcvvcb1QiLCJhbGciOsdfsUzI1NiJ9.eyJpZCI6IjEzMzciLCJ1c2VybmFtZSI6ImJpem9uZSIswwwfcI6MTU5NDIwOTYwMCwicm9sZSI6InVzZXIifQ.ZvkYYnyM92xvxcvNW9_hSis7_x3_9rymsDcvcbvuOcc1I
     '400':
       description: Ошибка
       content:
         application/json:
           schema:
             $ref: "common/error.yml"
+    '401':
+      description: Ошибка аутентификации
