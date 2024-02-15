@@ -1,5 +1,5 @@
 # Описание API
-Для генерации документации WebAPI через `redoccly`:
+Для генерации документации WebAPI через `redocly`:
 ```
 redocly build-docs main.yml -o openapi.html
 ```
