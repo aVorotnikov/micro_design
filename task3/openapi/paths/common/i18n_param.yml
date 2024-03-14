@@ -1,0 +1,7 @@
+name: Content-Language
+in: header
+description: Language of GUI
+schema:
+  type: string
+  default: ru-RU
+example: en-US

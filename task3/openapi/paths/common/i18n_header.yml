@@ -1,0 +1,5 @@
+Content-Language:
+  description: Language of GUI
+  schema:
+    type: string
+  example: ru-RU
